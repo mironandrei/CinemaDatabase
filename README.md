@@ -1,6 +1,6 @@
-## **CinemaDatabase**  
+## ***CinemaDatabase***  
 
-### **Description** 
+### ***Description*** 
 
 In that project I use ***MVC design pattern*** and ***SOLID design principles***.
 
@@ -21,7 +21,7 @@ The staff can perform the following commands:
 - ***stergeUtilizator*** (delete a client from database)
 - ***verificareRezervari*** (display all of the reservations for a client)
 
-### **How to use**
+### ***How to use***
 
 First of all you need to have the following tables in the database:
 - ***useri*** (id, username, password)
