@@ -1,6 +1,6 @@
 ## CinemaDatabase  
 
-###Description
+### Description
 
 In that project I use MVC design pattern and SOLID design principles
 
@@ -20,7 +20,7 @@ The staff can perform the following commands:
 - stergeUtilizator (delete a client from database)
 - verificareRezervari (display all of the reservations for a client)
 
-###How to use
+### How to use
 
 First of all you need to have the following tables in the database:
 - useri (id, username, password)
@@ -28,7 +28,7 @@ First of all you need to have the following tables in the database:
 - personalCinematograf (id, username, password)
 
 This project was made using [IntelliJ IDEA](https://www.jetbrains.com/idea/).
-In addition to the source files, you need to add at external libraryes [my-sql-connector](https://mvnrepository.com/artifact/mysql/mysql-connector-java)(i use the version 8.0.11) because you need to connect your application to the database (I create the database with phpMyAdmin in which I connected with xampp controller).
+In addition to the source files, you need to add at external libraryes [my-sql-connector](https://mvnrepository.com/artifact/mysql/mysql-connector-java)(I use the version 8.0.11) because you need to connect your application to the database (I create the database with phpMyAdmin in which I connected with xampp controller).
 After you have all of that you can run the project using IntelliJ IDEA.
 
 
