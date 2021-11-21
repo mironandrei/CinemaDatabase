@@ -8,7 +8,7 @@ The application aims to manage a cinema with 9 halls, each of them with a maximu
 
 If a person want to reservate a ticket for a film, he need to make a user account. In order to make the account, it is necessary to choose a username and a password.  
 
-In the database there not be two users with the same name and the password need to contain at least one digit and a special characte (***for example ?, *, ], !***) 
+In the database there not be two users with the same name and the password need to contain at least one digit and a special characte (***for example ?, #, ], !***) 
 
 The user can perform the following commands:
 - ***rezervare*** (to reservate a ticket)(you need to specify the name of the movie you want, the hall and the date for the reservation , but the date can't be less than the current date)
@@ -29,7 +29,7 @@ First of all you need to have the following tables in the database:
 - ***personalCinematograf*** (id, username, password)
 
 This project was made using ***[IntelliJ IDEA](https://www.jetbrains.com/idea/)***.
-In addition to the source files, you need to add at external libraryes ***[my-sql-connector](https://mvnrepository.com/artifact/mysql/mysql-connector-java)***(I use the version 8.0.11) because you need to connect your application to the database (I create the database with ***phpMyAdmin*** in which I connected with ***Xampp Controller***).
+In addition to the source files, you need to add at external libraryes ***[my-sql-connector](https://mvnrepository.com/artifact/mysql/mysql-connector-java)***(I use the version 8.0.11) because you need to connect your application to the database (I create the database with ***phpMyAdmin*** in which I connected with ***XAMPP Controller***).
 After you have all of that you can run the project using IntelliJ IDEA.
 
 
